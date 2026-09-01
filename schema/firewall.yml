@@ -218,6 +218,12 @@ resources:
       - name: Log
         type: string
         key: log
+      - name: Tag
+        type: string
+        key: tag
+      - name: Tagged
+        type: string
+        key: tagged
       - name: Description
         type: string
         key: description

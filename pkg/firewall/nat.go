@@ -35,6 +35,8 @@ type NAT struct {
 	Target            string          `json:"target"`
 	TargetPort        string          `json:"target_port"`
 	Log               string          `json:"log"`
+	Tag               string          `json:"tag"`
+	Tagged            string          `json:"tagged"`
 	Description       string          `json:"description"`
 }
 
